@@ -1,5 +1,5 @@
 # CV - Лев Флейшман
-![](https://github.com/LevaFlash/rsschool-cv/blob/gh-pages/GITAVA.jpg)
+![](./GITAVA.jpg)
 ## Контакты:
 Почта: levaflash@mail.ru \
 Телеграм: @levaflash
