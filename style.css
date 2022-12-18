@@ -1,6 +1,6 @@
 @font-face {
     font-family: Poppins;
-     src: url("assets/fonts/Poppins");
+     src: url("assets/fonts/Poppins-Medium.ttf");
    }
 * {
     box-sizing: border-box;
@@ -9,13 +9,14 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    border: 3px solid rgb(27, 172, 58);
     min-height: 100vh;
     margin: 0;
     padding: 0;
-    background-color: greenyellow;
+    font-family: 'Poppins';
+    background-color: bisque;
 }
 .container {
+    width: 60vw;
     max-width: 1440px;
     margin: 0 auto;
 }
@@ -28,8 +29,18 @@ html {
     align-items: center;
     list-style: none;
     padding: 0 20px;
-    line-height: 50px;
+    line-height: 60px;
     transition: 0.3s;
+}
+.nav-item {
+    padding: 10px;
+    border: 3px solid burlywood;
+    border-radius: 10px;
+    background-color: #fff;
+}
+.nav-link {
+    text-decoration: none;
+    color: black;
 }
 .section-item a {
     color: #829985;
