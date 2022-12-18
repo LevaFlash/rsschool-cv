@@ -16,12 +16,26 @@ body {
     background-color: bisque;
 }
 .container {
-    width: 60vw;
+    width: 70%;
     max-width: 1440px;
     margin: 0 auto;
 }
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+  
+.section {
+    width: 50%;
+}
+#code-example {
+    font-size: 16px;
+}
 html {
     scroll-behavior: smooth; 
+}
+.avatarka{
+    width: 250px;
 }
 .nav-list {
     display: flex;
@@ -34,6 +48,7 @@ html {
 }
 .nav-item {
     padding: 10px;
+    margin-left:5px;
     border: 3px solid burlywood;
     border-radius: 10px;
     background-color: #fff;
@@ -42,11 +57,12 @@ html {
     text-decoration: none;
     color: black;
 }
-.section-item a {
+/* .section-item a {
     color: #829985;
     text-decoration: none;  
     transition: color 0.5s;
 }
 .section-item a:hover {
-    color: #4d2323;
+    color: aqua;
 }
+*/

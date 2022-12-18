@@ -14,27 +14,30 @@
 
     <header class="header">
         <div class="container">
-            <nav class="nav">
-                <ul class="nav-list">
-                  <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
-                  <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
-                  <li class="nav-item"><a href="#soft-skills" class="nav-link">Soft-skills</a></li>
-                  <li class="nav-item"><a href="#hard-skills" class="nav-link">Hard skills in IT</a></li>
-                  <li class="nav-item"><a href="#code-example" class="nav-link">Code example</a></li>
-                  <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
-                  <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
-                  <li class="nav-item"><a href="#english-level" class="nav-link">English-level</a></li>
-                </ul>
-            </nav>
+            <section>
+                <nav class="nav">
+                    <ul class="nav-list">
+                      <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                      <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+                      <li class="nav-item"><a href="#soft-skills" class="nav-link">Soft-skills</a></li>
+                      <li class="nav-item"><a href="#hard-skills" class="nav-link">Hard skills in IT</a></li>
+                      <li class="nav-item"><a href="#code-example" class="nav-link">Code example</a></li>
+                      <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                      <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                      <li class="nav-item"><a href="#english-level" class="nav-link">English-level</a></li>
+                    </ul>
+                </nav>
+            </section>
+            
         </div>
     </header>
     
     <main class="main">
-        <div class="container">
+        <div class="container main-container">
 
             <section class="section" id="profile">
                 <h1 class="section-title">Lev</h1>
-                <img src="assets/img/pepe.png" alt="photo" width="200px">
+                <img class="avatarka" src="assets/img/pepe.png" alt="photo">
             </section>
 
             <section class="section" id="contacts">
@@ -72,18 +75,24 @@
             
             <section class="section" id="code-example">
                 <h2 class="section-title">Code-example</h2>
-            </section>
-            
-            <section class="section" id="projects">
-                <h2 class="section-title">Projects</h2>
+                <pre>
+                    <code>
+function squareDigits(num){
+let res = num.toString().split('').map(a =&gt; Number(a) ** 2).join('')
+return Number(res)
+}
+                    </code>
+                </pre>
             </section>
             
             <section class="section" id="education">
                 <h2 class="section-title">Education</h2>
+                <p>ULSTU 2018</p>
             </section>
             
             <section class="section" id="English-level">
                 <h2 class="section-title">English-level</h2>
+                <p>Pre-Intermediate</p>
             </section>
 
         </div>
