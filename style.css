@@ -43,7 +43,7 @@
     padding: 2vw;
 }
 #code-example {
-    min-width: 20vw;
+    min-width: 25vw;
     word-wrap: break-word;
 }
 section > h1 {
@@ -67,23 +67,23 @@ section > ul {
     padding-top: calc(2% + 6vw);
 }
 .nav {
-    min-width: 100%;
+    min-width: 70%;
     max-width: 100%;
+    padding:0;
 }
 .nav-list {
     display: flex;
     justify-content: safe;
     flex-wrap: wrap;
     list-style: none;
-    padding: 0;
-    margin: 0;
     width: 100%;
-    margin:0 auto;
+    padding: 0;
+    margin-left: 2%;
 }
 .nav-item {
     display: flex;
     flex-wrap: wrap;
-    padding: 1%;
+    padding: 1.5%;
     margin: 0.84%;
     border: 0.1em solid black;
     border-radius: 0.7vw;
