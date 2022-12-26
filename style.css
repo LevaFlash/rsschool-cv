@@ -20,7 +20,7 @@
         font-family: 'Poppins';
         font-size: 0.9rem;
         font-weight: 100;
-        background-image: url('/99.jpg');
+        background-image: url(99.jpg);
         background-repeat: no-repeat;
         background-size: cover;
     }
@@ -43,7 +43,7 @@
     padding: 2vw;
 }
 #code-example {
-    min-width: 30vw;
+    min-width: 20vw;
     word-wrap: break-word;
 }
 section > h1 {
