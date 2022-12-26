@@ -2,56 +2,95 @@
     font-family: Poppins;
      src: url("assets/fonts/Poppins-Medium.ttf");
    }
-* {
+   html {
+    scroll-behavior: smooth;
+    font-size: 17px;
+    color: white;
+}
+   * {
     box-sizing: border-box;
 }
-body {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    min-height: 100vh;
-    margin: 0;
-    padding: 0;
-    font-family: 'Poppins';
-    background-color: bisque;
-}
+    body {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        font-family: 'Poppins';
+        font-size: 0.9rem;
+        font-weight: 100;
+        background-image: url('/99.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
 .container {
     width: 70%;
-    max-width: 1440px;
+    max-width: 100%;
     margin: 0 auto;
+    padding: 2%;
 }
 .main-container {
     display: flex;
     flex-wrap: wrap;
+    column-gap: 10%;
+    background-color:black;
+    opacity: 80%;
 }
-  
+    
 .section {
-    width: 50%;
+    width: 45%;
+    padding: 2vw;
 }
 #code-example {
-    font-size: 16px;
+    min-width: 30vw;
+    word-wrap: break-word;
 }
-html {
-    scroll-behavior: smooth; 
+section > h1 {
+    padding-left: 20%;
 }
+section > h2 {
+    font-weight:100;
+}
+
+section > ul {
+    padding-left: 0;
+    max-width: 90%;
+}
+
 .avatarka{
-    width: 250px;
+    display: block;
+    width: 50%;
+    margin-left: 0%;
+}
+#contacts {
+    padding-top: calc(2% + 6vw);
+}
+.nav {
+    min-width: 100%;
+    max-width: 100%;
 }
 .nav-list {
     display: flex;
-    justify-content: flex-end;
-    align-items: center;
+    justify-content: safe;
+    flex-wrap: wrap;
     list-style: none;
-    padding: 0 20px;
-    line-height: 60px;
-    transition: 0.3s;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    margin:0 auto;
 }
 .nav-item {
-    padding: 10px;
-    margin-left:5px;
-    border: 3px solid burlywood;
-    border-radius: 10px;
-    background-color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1%;
+    margin: 0.84%;
+    border: 0.1em solid black;
+    border-radius: 0.7vw;
+    font-size: 0.99vw;
+    transition: 1s;
+    background-color: white;
+    opacity: 70%;
 }
 .nav-link {
     text-decoration: none;
@@ -66,10 +105,23 @@ html {
     color: aqua;
 }
 */
+footer > .container {
+    margin: 0 auto 10%;
+    padding-bottom: 0;
+}
 .footer-link {
     text-decoration: none;
-    color: salmon;
+    display: block;
+    width: 91%;
+    line-height: 0.2em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2vw;
+    color: rgb(218, 215, 215);
+    padding: 0;
+    margin: 0 auto;
 }
 .rs-logo {
-    width: 300px;
+    display:block;
+    width: 50%;
+    margin:5vh auto;
 }
