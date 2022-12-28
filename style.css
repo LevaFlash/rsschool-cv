@@ -1,0 +1,132 @@
+@font-face {
+    font-family: Poppins;
+     src: url("assets/fonts/Poppins-Medium.ttf");
+   }
+   html {
+    scroll-behavior: smooth;
+    font-size: 16px;
+    color: white;
+}
+   * {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+    font-weight: 100;
+    background-image: url(99.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    width: 70%;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 2%;
+}
+
+.nav {
+    min-width: 70%;
+    max-width: 100%;
+    padding:0;
+}
+.nav-list {
+    display: flex;
+    justify-content: safe;
+    flex-wrap: wrap;
+    list-style: none;
+    width: 100%;
+    padding: 0;
+    margin-left: 2%;
+}
+.nav-item {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1.5%;
+    margin: 0.84%;
+    border: 0.1em solid black;
+    border-radius: 0.7vw;
+    font-size: 0.99vw;
+    transition: 1s;
+    background-color: white;
+    opacity: 70%;
+}
+.nav-item:hover {
+    background-color: greenyellow;
+    opacity: 90%;
+    font-size: 1.1vw;
+    transition: 0.2s;
+}
+.nav-link {
+    text-decoration: none;
+    color: black;
+}
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 10%;
+    background-color:black;
+    opacity: 80%;
+}
+    
+.section {
+    width: 45%;
+    padding: 2vw;
+}
+#code-example {
+    min-width: 25vw;
+    word-wrap: break-word;
+}
+section > h1 {
+    padding-left: 20%;
+}
+section > h2 {
+    font-weight:100;
+}
+
+section > ul {
+    padding-left: 0;
+    max-width: 90%;
+}
+
+.avatarka{
+    display: block;
+    width: 50%;
+    margin-left: 0%;
+}
+#contacts {
+    padding-top: calc(2% + 6vw);
+}
+
+footer > .container {
+    margin: 0 auto 10%;
+    padding-bottom: 0;
+}
+.footer-link {
+    text-decoration: none;
+    display: block;
+    width: 91%;
+    line-height: 0.2em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2vw;
+    color: rgb(218, 215, 215);
+    padding: 0;
+    margin: 0 auto;
+}
+.rs-logo {
+    display:block;
+    width: 50%;
+    margin:5vh auto;
+}
