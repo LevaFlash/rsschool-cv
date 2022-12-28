@@ -4,32 +4,75 @@
    }
    html {
     scroll-behavior: smooth;
-    font-size: 17px;
+    font-size: 16px;
     color: white;
 }
    * {
     box-sizing: border-box;
 }
-    body {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        width: 100%;
-        margin: 0;
-        padding: 0;
-        font-family: 'Poppins';
-        font-size: 0.9rem;
-        font-weight: 100;
-        background-image: url(99.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
+
+body {
+    margin: 0;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+    font-weight: 100;
+    background-image: url(99.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .container {
     width: 70%;
     max-width: 100%;
     margin: 0 auto;
     padding: 2%;
 }
+
+.nav {
+    min-width: 70%;
+    max-width: 100%;
+    padding:0;
+}
+.nav-list {
+    display: flex;
+    justify-content: safe;
+    flex-wrap: wrap;
+    list-style: none;
+    width: 100%;
+    padding: 0;
+    margin-left: 2%;
+}
+.nav-item {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1.5%;
+    margin: 0.84%;
+    border: 0.1em solid black;
+    border-radius: 0.7vw;
+    font-size: 0.99vw;
+    transition: 1s;
+    background-color: white;
+    opacity: 70%;
+}
+.nav-item:hover {
+    background-color: greenyellow;
+    opacity: 90%;
+    font-size: 1.1vw;
+    transition: 0.2s;
+}
+.nav-link {
+    text-decoration: none;
+    color: black;
+}
+
 .main-container {
     display: flex;
     flex-wrap: wrap;
@@ -66,45 +109,7 @@ section > ul {
 #contacts {
     padding-top: calc(2% + 6vw);
 }
-.nav {
-    min-width: 70%;
-    max-width: 100%;
-    padding:0;
-}
-.nav-list {
-    display: flex;
-    justify-content: safe;
-    flex-wrap: wrap;
-    list-style: none;
-    width: 100%;
-    padding: 0;
-    margin-left: 2%;
-}
-.nav-item {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 1.5%;
-    margin: 0.84%;
-    border: 0.1em solid black;
-    border-radius: 0.7vw;
-    font-size: 0.99vw;
-    transition: 1s;
-    background-color: white;
-    opacity: 70%;
-}
-.nav-link {
-    text-decoration: none;
-    color: black;
-}
-/* .section-item a {
-    color: #829985;
-    text-decoration: none;  
-    transition: color 0.5s;
-}
-.section-item a:hover {
-    color: aqua;
-}
-*/
+
 footer > .container {
     margin: 0 auto 10%;
     padding-bottom: 0;
